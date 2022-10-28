@@ -1,19 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 12.8px;
+  font-weight: 300;
+  letter-spacing: 0.32px;
 }
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
-}
-
-.svg {
-  max-width: 30px;
-  max-height: 30px;
 }
 
 header {
@@ -33,7 +32,7 @@ header nav .ul-nav-right {
   justify-content: center;
 }
 .ul-nav-right li a {
-  margin-left: 10px;
+  margin-left: 12px;
   color: #000;
 }
 .menu-icon {
@@ -50,8 +49,100 @@ header nav .ul-nav-right {
 }
 .access-btn button {
   color: white;
-  letter-spacing: 0.25px;
   border: none;
   background-color: transparent;
   cursor: pointer;
+  font-size: 14px;
+}
+
+main {
+  margin-top: 20%;
+  text-align: center;
+}
+.google-logo {
+  margin: 0 auto;
+}
+.search-box {
+  width: 580px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.search-input {
+  width: 580px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid #d8d2d2;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-input:hover {
+  box-shadow: 0 1px 6px 0 #a2a2a2;
+}
+#main-input-container {
+  padding: 0;
+  width: 440px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.search-icon {
+  background-position: center;
+  background-size: contain;
+  height: 22px;
+  padding-right: 8px;
+  filter: invert(60%);
+}
+.search-icon:hover {
+  cursor: pointer;
+}
+.micro-icon {
+  background-position: center;
+  background-size: contain;
+  height: 22px;
+  padding: 0 8px;
+}
+.micro-icon:hover {
+  cursor: pointer;
+}
+.search-photo {
+  background-position: center;
+  background-size: contain;
+  height: 22px;
+  padding: 0 8px;
+  margin-right: 4px;
+}
+.search-photo:hover {
+  cursor: pointer;
+}
+main p a {
+  color: #4880dc;
+  font-family: Arial;
+}
+main p a:hover {
+  text-decoration: underline;
+}
+.search-buttons {
+  width: 480px;
+  margin: 10px auto 24px;
+}
+.search-button {
+  display: inline-block;
+}
+.search-button button {
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  font-weight: 400;
+  color: #464a4b;
+  padding: 0 16px;
+  margin-right: 12px;
+}
+.search-button button:hover {
+  color: #202224;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px #e0e2e4;
 }
